@@ -1,0 +1,23 @@
+MON ACTIVITÉ AUTO - version appli pour téléphone
+
+Ce dossier contient l'appli VIDE : aucune voiture, aucun chiffre, aucun client.
+Tes données restent uniquement sur ton téléphone, chiffrées avec ton mot de passe.
+
+Fichiers :
+- index.html             l'appli
+- manifest.webmanifest   nom et icône de l'appli
+- sw.js                  permet à l'appli de marcher sans internet
+- icon-*.png             icônes
+
+Installation sur iPhone (Chrome ou Safari) :
+1. Ouvre l'adresse de l'appli dans Chrome.
+2. Touche le bouton Partager (carré avec une flèche) > « Ajouter à l'écran d'accueil ».
+3. Lance l'appli depuis l'icône « Mon activité ».
+4. Choisis ton mot de passe. L'appli te donne alors un CODE DE SECOURS : note-le sur papier.
+   C'est lui qui sert si tu oublies ton mot de passe (« Mot de passe oublié ? » sur l'écran de verrouillage).
+5. Importe ta sauvegarde Excel (Réglages > Importer un fichier Excel).
+
+Sécurité :
+- Le code de l'appli ne contient aucun mot de passe ni aucune clé.
+- L'appli n'envoie rien sur internet (c'est même bloqué dans son code).
+- Tes données sont chiffrées sur le téléphone (AES-256). Sans mot de passe ni code de secours, personne ne peut les lire, pas même toi.
